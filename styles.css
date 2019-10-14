@@ -38,22 +38,27 @@
 }
 
 /* Selector for all the links in main navbar */
-.navbar-links {
-  margin: 12px 178px 0 auto;
+.navbar-links-container {
+  margin: 12px 12px 0 0;
   align-items: center;
-  width: 510px;
-  justify-content: space-between;
+  width: 69%;
   list-style: none;
+  justify-content: flex-end;
+}
+
+/* Selector for the li elements at the navbar */
+.navbar-links-container li {
+  margin-left: 16px;
 }
 
 /* Selector for the anchors inside the ul at the navbar */
-.navbar-links li a {
+.navbar-links-container li a {
   color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
 }
 
 /* Selector for the anchors inside the ul at the navbar when hovering */
-.navbar-links li a:hover {
+.navbar-links-container li a:hover {
   color: black;
 }
 
