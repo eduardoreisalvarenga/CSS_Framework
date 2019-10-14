@@ -48,6 +48,7 @@
   flex-basis: calc((100% / 12) * 4);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes five twelfths of the grid width */
