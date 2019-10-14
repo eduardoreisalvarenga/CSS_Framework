@@ -11,6 +11,11 @@
   padding: 16px;
 }
 
+/* Selector for the a elements */
+a {
+  text-decoration: none;
+}
+
 /* Selector used to create new rows */
 .row {
   display: flex;

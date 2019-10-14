@@ -1,0 +1,63 @@
+/* Embbeding font styles from my local folder */
+@font-face {
+  font-family: "Norse";
+  src: url('norse/Norsebold.otf');
+}
+
+/* Selector for main navbar */
+nav {
+  display: flex;
+  width: 100%;
+}
+
+/* Selector for main logo */
+.main-logo {
+  display: flex;
+  align-items: center;
+  margin: 12px 0 0 170px;
+}
+
+/* Selector for the text next main logo */
+.logo-text {
+  flex: 1;
+  color: #cc9543;
+  text-transform: uppercase;
+  font-family: "Norse";
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-size: 1.6em;
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+/* Selector for all links in main navbar */
+.navbar-links {
+  margin: 12px 178px 0 auto;
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+  width: 510px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar-links li a {
+  color: rgba(74,74,74,0.7);
+  font-weight: bold;
+}
+
+.navbar-links li a:hover {
+  color: black;
+}
+
+/* Style for the arrow pointing below together with community  */
+.dropdown-arrow::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  } 
