@@ -7,7 +7,23 @@
 /* Selector for main logo anchor */
 .main-logo-container {
   align-items: center;
-  margin: 12px 0 0 170px;
+  margin: 8px 0 0 20px;
+}
+
+/* Selector for the logo img at the navbar */
+.logo {
+  height: 60px;
+}
+
+/* Selector for the anchor which contains the menu icon */
+.menu-icon-container {
+  margin: 22px 24px 0 auto;
+}
+
+/* Selector for the menu icon at the navbar */
+.menu-icon {
+  width: 32px;
+  height: 32px;
 }
 
 /* Selector for the text in the main logo */
@@ -16,7 +32,7 @@
   text-transform: uppercase;
   font-family: "Norsebold", sans-serif;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 24px;
   display: inline-block;
   padding-left: 0.5em;
 }
