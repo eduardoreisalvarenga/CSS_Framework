@@ -24,6 +24,7 @@
   flex-basis: calc(100% / 12);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes two twelfths of the grid width */
@@ -31,6 +32,7 @@
   flex-basis: calc((100% / 12) * 2);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes three twelfths of the grid width */
@@ -38,6 +40,7 @@
   flex-basis: calc((100% / 12) * 3);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes four twelfths of the grid width */
@@ -52,6 +55,7 @@
   flex-basis: calc((100% / 12) * 5);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes six twelfths of the grid width */
@@ -59,6 +63,7 @@
   flex-basis: calc((100% / 12) * 6);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes seven twelfths of the grid width */
@@ -66,6 +71,7 @@
   flex-basis: calc((100% / 12) * 7);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes eight twelfths of the grid width */
@@ -73,6 +79,7 @@
   flex-basis: calc((100% / 12) * 8);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes nine twelfths of the grid width */
@@ -80,6 +87,7 @@
   flex-basis: calc((100% / 12) * 9);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes ten twelfths of the grid width */
@@ -87,6 +95,7 @@
   flex-basis: calc((100% / 12) * 10);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes eleven twelfths of the grid width */
@@ -94,6 +103,7 @@
   flex-basis: calc((100% / 12) * 11);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* Selector used to create a column that takes twelve twelfths of the grid width */
@@ -101,6 +111,7 @@
   flex-basis: calc((100% / 12) * 12);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /*==============================================================================
@@ -113,6 +124,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc(100% / 12);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes two twelfths of the grid width */
@@ -120,6 +132,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 2);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes three twelfths of the grid width */
@@ -127,6 +140,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 3);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes four twelfths of the grid width */
@@ -134,6 +148,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 4);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes five twelfths of the grid width */
@@ -141,6 +156,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 5);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes six twelfths of the grid width */
@@ -148,6 +164,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 6);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes seven twelfths of the grid width */
@@ -155,6 +172,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 7);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes eight twelfths of the grid width */
@@ -162,6 +180,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 8);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes nine twelfths of the grid width */
@@ -169,6 +188,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 9);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes ten twelfths of the grid width */
@@ -176,6 +196,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 10);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes eleven twelfths of the grid width */
@@ -183,6 +204,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 11);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes twelve twelfths of the grid width */
@@ -190,6 +212,7 @@ MEDIA QUERIES STARTING AT 720PX
     flex-basis: calc((100% / 12) * 12);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
 
@@ -203,6 +226,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc(100% / 12);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes two twelfths of the grid width */
@@ -210,6 +234,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 2);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes three twelfths of the grid width */
@@ -217,6 +242,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 3);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes four twelfths of the grid width */
@@ -224,6 +250,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 4);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes five twelfths of the grid width */
@@ -231,6 +258,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 5);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes six twelfths of the grid width */
@@ -238,6 +266,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 6);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes seven twelfths of the grid width */
@@ -245,6 +274,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 7);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes eight twelfths of the grid width */
@@ -252,6 +282,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 8);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes nine twelfths of the grid width */
@@ -259,6 +290,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 9);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes ten twelfths of the grid width */
@@ -266,6 +298,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 10);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes eleven twelfths of the grid width */
@@ -273,6 +306,7 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 11);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   /* Selector used to create a column that takes twelve twelfths of the grid width */
@@ -280,5 +314,6 @@ MEDIA QUERIES STARTING AT 1024PX
     flex-basis: calc((100% / 12) * 12);
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
