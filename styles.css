@@ -72,4 +72,33 @@
   border-right: 0.3em solid transparent;
   border-bottom: 0;
   border-left: 0.3em solid transparent;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+/* Selector for the pipe at the navbar */
+.pipe {
+  line-height: 78px;
+  font-size: 1.5em;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+/*==============================================================================
+MEDIA QUERIES STARTING AT 1024PX
+==============================================================================*/
+@media (min-width: 1024px) {
+
+  /* Selector for the anchor which contains the menu icon */
+  .main-logo-container {
+    margin-left: auto;
+  }
+
+  /* Selector for all the links in main navbar */
+  .navbar-links-container {
+    margin: 12px auto 0 0;
+  }
+
+  /* Selector for the logo img at the navbar */
+  .logo {
+    height: 70px;
+  }
 }

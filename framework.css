@@ -155,6 +155,7 @@ MEDIA QUERIES STARTING AT 720PX
 ==============================================================================*/
 /* These rules will apply starting at 720px */
 @media (min-width: 720px) {
+
   /* Selector used to create a column that takes a twelfth of the grid width */
   .col-md-1 {
     flex-basis: calc(100% / 12);
@@ -282,6 +283,7 @@ MEDIA QUERIES STARTING AT 1024PX
 ==============================================================================*/
 /* These rules will apply starting at 1024px */
 @media (min-width: 1024px) {
+
   /* Selector used to create a column that takes a twelfth of the grid width */
   .col-lg-1 {
     flex-basis: calc(100% / 12);
