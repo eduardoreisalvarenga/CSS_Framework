@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(100% / 12);
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+    background-color: purple;
+}
