@@ -192,3 +192,93 @@ MEDIA QUERIES STARTING AT 720PX
     justify-content: center;
   }
 }
+
+/*==============================================================================
+MEDIA QUERIES STARTING AT 1024PX
+==============================================================================*/
+/* These rules will apply starting at 1024px */
+@media (min-width: 1024px) {
+  /* Selector used to create a column that takes a twelfth of the grid width */
+  .col-lg-1 {
+    flex-basis: calc(100% / 12);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes two twelfths of the grid width */
+  .col-lg-2 {
+    flex-basis: calc((100% / 12) * 2);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes three twelfths of the grid width */
+  .col-lg-3 {
+    flex-basis: calc((100% / 12) * 3);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes four twelfths of the grid width */
+  .col-lg-4 {
+    flex-basis: calc((100% / 12) * 4);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes five twelfths of the grid width */
+  .col-lg-5 {
+    flex-basis: calc((100% / 12) * 5);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes six twelfths of the grid width */
+  .col-lg-6 {
+    flex-basis: calc((100% / 12) * 6);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes seven twelfths of the grid width */
+  .col-lg-7 {
+    flex-basis: calc((100% / 12) * 7);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes eight twelfths of the grid width */
+  .col-lg-8 {
+    flex-basis: calc((100% / 12) * 8);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes nine twelfths of the grid width */
+  .col-lg-9 {
+    flex-basis: calc((100% / 12) * 9);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes ten twelfths of the grid width */
+  .col-lg-10 {
+    flex-basis: calc((100% / 12) * 10);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes eleven twelfths of the grid width */
+  .col-lg-11 {
+    flex-basis: calc((100% / 12) * 11);
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector used to create a column that takes twelve twelfths of the grid width */
+  .col-lg-12 {
+    flex-basis: calc((100% / 12) * 12);
+    display: flex;
+    justify-content: center;
+  }
+}
