@@ -183,6 +183,7 @@ h1 {
   margin: 0 auto;
 }
 
+/* Selector for h2 elements at section one articles */
 .section-one-article h2 {
   margin: 50px 0 20px 0;
   font-weight: bold;
@@ -230,5 +231,20 @@ MEDIA QUERIES STARTING AT 1024PX
   /* Selector for the logo img at the navbar */
   .logo {
     height: 70px;
+  }
+
+  /* Selector for section one articles */
+  .section-one-article-one {
+    margin-top: 0;
+  }
+
+  /* Selector for the row at section one */
+  .section-one-row {
+    margin-top: 120px;
+  }
+
+  /* Selector for images at section one */
+  .section-one-img {
+    height: 165px;;
   }
 }
