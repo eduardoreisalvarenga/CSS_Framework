@@ -223,6 +223,7 @@ h1 {
   width: 270px;
   height: 150px;
   text-align: center;
+  flex-basis: auto;
 }
 
 .programing-languages {
