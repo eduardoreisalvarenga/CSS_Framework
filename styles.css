@@ -194,11 +194,27 @@ h1 {
   text-align: center;
 }
 
-/* TODO add fixed navbar */
+/*==============================================================================
+MEDIA QUERIES STARTING AT 720PX
+==============================================================================*/
+/* These rules will aplly starting at 720px */
+@media (min-width: 720px) {
+  /* Selector for the navbar */
+  nav {
+    position: static;
+  }
+
+  /* Selector for the main content of the page */
+  main {
+    position: absolute;
+    top: 120px;
+  }
+}
 
 /*==============================================================================
 MEDIA QUERIES STARTING AT 1024PX
 ==============================================================================*/
+/* These rules will aplly starting at 1024px */
 @media (min-width: 1024px) {
 
   /* Selector for the anchor which contains the menu icon */
