@@ -202,10 +202,24 @@ h1 {
 }
 
 .programming-languages-main-container {
-  
+  text-align: center;
+  padding: 60px 0;
+  background-color: #f3f3f3;
+}
+
+.programmin-languages-header {
+  margin-bottom: 58px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  line-height: 1.2;
 }
 
 .programming-container {
+  padding-top: 25px;
+  background-color: white;
+  margin: 10px auto;
   width: 270px;
   height: 150px;
   text-align: center;
@@ -214,6 +228,25 @@ h1 {
 .programing-languages {
   height: 80px;
   width: 80px;
+  margin-bottom: 10px;
+}
+
+.programming-languages-button {
+  margin-top: 40px;
+  background-color: #cc9543;
+  padding: 1rem 2.5rem;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
 }
 
 /*==============================================================================
@@ -235,6 +268,11 @@ MEDIA QUERIES STARTING AT 720PX
   /* Selector for the section one container */
   .section-one-container {
     max-width: 80%;
+  }
+
+  .information-container {
+    width: 600px;
+    margin: 0 auto;;
   }
 }
 
@@ -277,5 +315,10 @@ MEDIA QUERIES STARTING AT 1024PX
   /* Selector for the section one container */
   .section-one-container {
     max-width: 1024px;
+  }
+
+  .information-container {
+    width: 870px;
+    margin: 0 auto;;
   }
 }
