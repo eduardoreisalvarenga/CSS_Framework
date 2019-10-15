@@ -115,6 +115,7 @@ h1 {
   margin-inline-end: 0px;
   font-weight: 400;
   line-height: 1.88;
+  text-align: center;
 }
 
 /* Custom class for the View curriculum button */
@@ -143,8 +144,44 @@ h1 {
 
 /* Selector for the container which contains the odin factory image */
 .image-container {
-  margin-top: 46px;
+  margin: 46px 0 40px 0;
 }
+
+/* Selector for the titles of the sections */
+.section-title {
+  margin: 0 0 40px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Selector for section one articles */
+.section-one-article-one {
+  margin-top: 48px;
+}
+
+/* Selector for images at section one */
+.section-one-img {
+  height: 120px;
+  margin: 0 auto;
+}
+
+.section-one-article h2 {
+  margin: 50px 0 20px 0;
+  font-weight: bold;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* TODO add fixed navbar */
 
 /*==============================================================================
 MEDIA QUERIES STARTING AT 1024PX
