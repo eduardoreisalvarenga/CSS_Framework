@@ -160,6 +160,12 @@ h1 {
   margin: 46px 0 40px 0;
 }
 
+/* Selector for the section one container */
+.section-one-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 /* Selector for the titles of the sections */
 .section-title {
   margin: 0 0 40px 0;
@@ -210,6 +216,11 @@ MEDIA QUERIES STARTING AT 720PX
     position: absolute;
     top: 120px;
   }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 80%;
+  }
 }
 
 /*==============================================================================
@@ -246,5 +257,10 @@ MEDIA QUERIES STARTING AT 1024PX
   /* Selector for images at section one */
   .section-one-img {
     height: 165px;;
+  }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 1024px;
   }
 }
