@@ -201,6 +201,21 @@ h1 {
   text-align: center;
 }
 
+.programming-languages-main-container {
+  
+}
+
+.programming-container {
+  width: 270px;
+  height: 150px;
+  text-align: center;
+}
+
+.programing-languages {
+  height: 80px;
+  width: 80px;
+}
+
 /*==============================================================================
 MEDIA QUERIES STARTING AT 720PX
 ==============================================================================*/
