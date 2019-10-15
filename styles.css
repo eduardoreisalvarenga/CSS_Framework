@@ -78,7 +78,6 @@
 /* Selector for the pipe at the navbar */
 .pipe {
   line-height: 78px;
-  font-size: 1.5em;
   color: rgba(74, 74, 74, 0.7);
 }
 
@@ -91,9 +90,9 @@ header {
 h1 {
   color: #ce973e;
   margin-bottom: 0;
-  padding-bottom: 1.875rem;
+  padding-bottom: 4px;
   font-size: 2.25rem;
-  font-weight: lighter;
+  font-weight: 300;
   letter-spacing: 0.4px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.2;
@@ -105,7 +104,7 @@ h1 {
 
 /* Selector for the paragraph below h1 */
 .header-paragraph {
-  color: rgba(74,74,74,0.7);
+  color: rgba(74, 74, 74, 0.7);
   font-size: 1.125rem;
   letter-spacing: 0.2px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -114,35 +113,39 @@ h1 {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-weight: 400;
+  line-height: 1.88;
 }
 
 /* Custom class for the View curriculum button */
 .header-button {
-  margin-top: 56px;
+  margin-top: 48px;
   background-color: #6abfc3;
   border-radius: 0.2em;
-  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   color: #fff;
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 0.2px;
-  padding: 1rem 3.5rem;
+  padding: 1.1rem 2.9rem;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   border: none;
-  }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-  /* Custom class to give opacity when hovering over view curriculum button */
-  .header-button:hover {
-    opacity: 0.8;
-  }
+/* Custom class to give opacity when hovering over view curriculum button */
+.header-button:hover {
+  opacity: 0.8;
+}
 
-  /* Selector for the container which contains the odin factory image */
-  .image-container {
-    margin-top: 46px;
-  }
+/* Selector for the container which contains the odin factory image */
+.image-container {
+  margin-top: 46px;
+}
+
 /*==============================================================================
 MEDIA QUERIES STARTING AT 1024PX
 ==============================================================================*/
