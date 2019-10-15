@@ -114,6 +114,21 @@ a {
   width: 100%;
 }
 
+/* Selector for using position relative */
+.position-relative {
+  position: relative;
+}
+
+/* Selector for using position absolute */
+.position-absolute {
+  position: absolute;
+}
+
+/* Selector for using position fixed */
+.position-fixed {
+  position: fixed;
+}
+
 /*==============================================================================
 MEDIA QUERIES STARTING AT 720PX
 ==============================================================================*/

@@ -242,7 +242,7 @@ h1 {
   background-color: #cc9543;
   padding: 1rem 2.5rem;
   border-radius: 0.2em;
-  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   color: #fff;
   display: inline-block;
   font-size: 1em;
@@ -254,6 +254,61 @@ h1 {
   cursor: pointer;
   border: none;
 }
+
+/* Selector for the third section container */
+.section-three-container {
+  width: calc(100% + 30px);
+  background-image: linear-gradient(#fff, #eee);
+  position: relative;
+  left: -15px;
+}
+
+/* Selector for the title at the third section */
+.third-section-title {
+  padding: 72px 0 56px 0;
+}
+
+/* Selector for section three's articles */
+.section-three-article {
+  margin-top: 16px;
+}
+
+/* Selector for images at section three's articles */
+.section-three-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 16px;
+}
+
+/* Selector for the container of the content at articles at section three */
+.section-three-article-content-container {
+  padding-left: 24px;
+}
+
+/* Selector for the a element inside the h2 element at section three's articles */
+.section-three-article-header {
+  color: #ce973e;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.88;
+  font-weight: 400;
+}
+
+/* Selector for the a element inside the h2 element at section three's articles when hovering */
+.section-three-article-header:hover {
+  color: black;
+}
+
+/* Selector for section three paragraphs */
+.section-three-p {
+  text-align: left;
+  margin-top: 0;
+}
+
+/* TODO curriculum arrow down */
+/* TODO remove padding bottom from main */
 
 /*==============================================================================
 MEDIA QUERIES STARTING AT 720PX
