@@ -4,6 +4,19 @@
   src: url('norse/Norsebold.otf');
 }
 
+/* Selector for the navbar */
+nav {
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+}
+
+/* Selector for the main content of the page */
+main {
+  position: absolute;
+  top: 56px;
+}
+
 /* Selector for main logo anchor */
 .main-logo-container {
   align-items: center;
