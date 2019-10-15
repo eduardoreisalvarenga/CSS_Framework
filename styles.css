@@ -201,12 +201,14 @@ h1 {
   text-align: center;
 }
 
+/* Main container for TI category */
 .programming-languages-main-container {
   text-align: center;
   padding: 60px 0;
   background-color: #f3f3f3;
 }
 
+/* Selector for the main header inside programming category  */
 .programmin-languages-header {
   margin-bottom: 58px;
   font-weight: bold;
@@ -216,6 +218,7 @@ h1 {
   line-height: 1.2;
 }
 
+/* Container for image and h4 header. Programming information */
 .programming-container {
   padding-top: 25px;
   background-color: white;
@@ -226,12 +229,14 @@ h1 {
   flex-basis: auto;
 }
 
+/* Default style for images showing programming languages */
 .programing-languages {
   height: 80px;
   width: 80px;
   margin-bottom: 10px;
 }
 
+/* Style for get started button  */
 .programming-languages-button {
   margin-top: 40px;
   background-color: #cc9543;
@@ -271,6 +276,7 @@ MEDIA QUERIES STARTING AT 720PX
     max-width: 80%;
   }
 
+  /* Container which contains all dives | Programming information */
   .information-container {
     width: 600px;
     margin: 0 auto;;
@@ -318,6 +324,7 @@ MEDIA QUERIES STARTING AT 1024PX
     max-width: 1024px;
   }
 
+  /* Container which contains all dives for programming information */
   .information-container {
     width: 870px;
     margin: 0 auto;;
