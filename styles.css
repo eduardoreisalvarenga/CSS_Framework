@@ -201,6 +201,12 @@ h1 {
   text-align: center;
 }
 
+/* Container which contains all dives | Programming information */
+.information-container {
+  position: relative;
+  top: -16px;
+}
+
 /* Main container for TI category */
 .programming-languages-main-container {
   text-align: center;
@@ -209,13 +215,13 @@ h1 {
 }
 
 /* Selector for the main header inside programming category  */
-.programmin-languages-header {
-  margin-bottom: 58px;
+.programming-languages-header {
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: 0.3px;
   color: #4a4a4a;
   line-height: 1.2;
+  margin: 0 0 58px 0;
 }
 
 /* Container for image and h4 header. Programming information */
@@ -240,7 +246,6 @@ h1 {
 .programming-languages-button {
   margin-top: 40px;
   background-color: #cc9543;
-  padding: 1rem 2.5rem;
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -253,6 +258,11 @@ h1 {
   text-decoration: none;
   cursor: pointer;
   border: none;
+}
+
+/* Style for get started button when hovering */
+.programming-languages-button:hover {
+  opacity: 0.8;
 }
 
 /* Selector for the third section container */
@@ -334,7 +344,25 @@ MEDIA QUERIES STARTING AT 720PX
   /* Container which contains all dives | Programming information */
   .information-container {
     width: 600px;
-    margin: 0 auto;;
+    margin: 0 auto;
+  }
+
+  /* Container for image and h4 header. Programming information */
+  .programming-container {
+    width: 258px;
+    height: 258px;
+  }
+
+  /* Default style for images showing programming languages */
+  .programing-languages {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  /* Selector for the h4 elements at the second section */
+  .programming-container h4 {
+    font-size: 1.125rem;
   }
 }
 
@@ -382,6 +410,6 @@ MEDIA QUERIES STARTING AT 1024PX
   /* Container which contains all dives for programming information */
   .information-container {
     width: 870px;
-    margin: 0 auto;;
+    margin: 0 auto;
   }
 }
