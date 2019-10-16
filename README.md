@@ -1,4 +1,4 @@
-# Grid-based Framework
+# Grid-based CSS Framework
 
 This is our solution to Microverse's eighth project. It is a Grid-based CSS Framework which can be found as 'framework.css'. To appy it we cloned The Odin Project home page. That page can be found [here](https://www.theodinproject.com/). The clone was created using HTML5 and CSS3, while the framework was built using CSS3.
 
