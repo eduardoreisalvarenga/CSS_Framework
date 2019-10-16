@@ -4,9 +4,14 @@
   src: url('norse/Norsebold.otf');
 }
 
+/* Selector for the body of the page */
+body {
+  background-color: #F5F5F5;
+}
+
 /* Selector for the navbar */
 nav {
-  background-color: #fff;
+  background-color: #F5F5F5;
   position: fixed;
   z-index: 10;
 }
@@ -211,7 +216,7 @@ h1 {
 .programming-languages-main-container {
   text-align: center;
   padding: 60px 0;
-  background-color: #f3f3f3;
+  background-color: #EEEEEE;
 }
 
 /* Selector for the main header inside programming category  */
@@ -360,24 +365,24 @@ footer {
   height: 250px;
   justify-content: space-between;
 }
- 
+
 /* Selector for footer logo */
 .footer-logo {
   flex: 1;
   justify-content: center;
 }
- 
+
 /* Selector for all font awesome icons */
 .fab {
   font-size: 24px;
   color: #cc9543;
 }
- 
+
 /* Hover effect for font awesome icons */
 .fab:hover {
   color: black;
 }
- 
+
 /* Selector for footer links */
 .footer-links {
   list-style: none;
@@ -385,11 +390,11 @@ footer {
   flex: 1;
   justify-content: center;
 }
- 
+
 /* Stylink text inside footer links */
 .footer-links div li a {
   flex-basis: 30px;
-  color: rgba(74,74,74,0.7);
+  color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
   text-decoration: none;
   margin: 0;
@@ -398,12 +403,12 @@ footer {
   font-size: 1em;
   line-height: 1.8;
 }
- 
+
 /* Hover effect fot social media links */
 .footer-links div li a:hover {
   color: black;
 }
- 
+
 /* Links inside left container */
 .left-cotainer-links {
   margin-right: 80px;
@@ -515,9 +520,9 @@ MEDIA QUERIES STARTING AT 1024PX
     padding-left: 56px;
   }
 
-/* Selector for the container which contais social media link inside footer */
-.footer-social-media {
-  justify-content: space-around;
-  flex: 1;
-  } 
+  /* Selector for the container which contais social media link inside footer */
+  .footer-social-media {
+    justify-content: space-around;
+    flex: 1;
+  }
 }
