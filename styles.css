@@ -421,7 +421,6 @@ footer {
 }
 
 /* TODO curriculum arrow down */
-/* TODO fix footer logo */
 /* TODO HTML errors */
 /* TODO CSS errors */
 /* TODO add screenshots */
@@ -570,6 +569,17 @@ MEDIA QUERIES STARTING AT 1024PX
 
   /* Selector for the anchor at the footer which contains the brnad logo */
   .footer-logo-a {
-    width: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: center;
+  }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 80px;
   }
 }
