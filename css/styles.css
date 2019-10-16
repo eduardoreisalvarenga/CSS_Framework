@@ -1,7 +1,7 @@
 /* Embed font required for the brand at the navbar */
 @font-face {
   font-family: "Norsebold";
-  src: url('norse/Norsebold.otf');
+  src: url('../norse/Norsebold.otf');
 }
 
 /* Selector for the body of the page */
@@ -75,13 +75,21 @@ main {
   font-weight: bold;
 }
 
-/* Selector for the anchors inside the ul at the navbar when hovering */
-.navbar-links-container li a:hover {
-  color: black;
+/* Stylink text inside footer links */
+.footer-links ul li a {
+  flex-basis: 30px;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.8;
 }
 
-/* Style for the arrow pointing down beside community anchor at the navbar when hovering */
-.dropdown-arrow:hover::after {
+/* Selector for the anchors inside the ul at the navbar when hovering */
+.navbar-links-container li a:hover {
   color: black;
 }
 
@@ -96,6 +104,11 @@ main {
   border-bottom: 0;
   border-left: 0.3em solid transparent;
   color: rgba(74, 74, 74, 0.7);
+}
+
+/* Style for the arrow pointing down beside community anchor at the navbar when hovering */
+.dropdown-arrow:hover::after {
+  color: black;
 }
 
 /* Selector for the pipe at the navbar */
@@ -404,19 +417,6 @@ footer {
   flex: 1;
   justify-content: center;
   padding: 0 16px;
-}
-
-/* Stylink text inside footer links */
-.footer-links ul li a {
-  flex-basis: 30px;
-  color: rgba(74, 74, 74, 0.7);
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0;
-  background-color: transparent;
-  text-align: center;
-  font-size: 1em;
-  line-height: 1.8;
 }
 
 /* Hover effect fot social media links */
