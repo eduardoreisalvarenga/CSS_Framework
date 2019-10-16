@@ -80,6 +80,11 @@ main {
   color: black;
 }
 
+/* Style for the arrow pointing down beside community anchor at the navbar when hovering */
+.dropdown-arrow:hover:after {
+  color: black;
+}
+
 /* Style for the arrow pointing down beside community anchor at the navbar */
 .dropdown-arrow::after {
   display: inline-block;
@@ -439,12 +444,6 @@ footer {
   font-weight: 900;
   line-height: 1;
 }
-
-/* TODO curriculum arrow down */
-/* TODO HTML errors */
-/* TODO CSS errors */
-/* TODO add screenshots */
-/* TODO update README */
 
 /*==============================================================================
 MEDIA QUERIES FOR UP TO 499PX
