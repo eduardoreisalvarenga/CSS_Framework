@@ -488,6 +488,16 @@ MEDIA QUERIES STARTING AT 720PX
     width: 80%;
     margin: 0 auto;
   }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 0;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: space-around;
+  }
 }
 
 /*==============================================================================
