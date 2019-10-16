@@ -393,9 +393,13 @@ footer {
   color: black;
 }
 
+/* Selector fot the ul elements at the footer */
+.footer-list {
+  list-style: none;
+}
+
 /* Selector for footer links */
 .footer-links {
-  list-style: none;
   align-items: center;
   flex: 1;
   justify-content: center;
@@ -403,7 +407,7 @@ footer {
 }
 
 /* Stylink text inside footer links */
-.footer-links div li a {
+.footer-links ul li a {
   flex-basis: 30px;
   color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
@@ -416,7 +420,7 @@ footer {
 }
 
 /* Hover effect fot social media links */
-.footer-links div li a:hover {
+.footer-links ul li a:hover {
   color: black;
 }
 
