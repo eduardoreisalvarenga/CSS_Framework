@@ -355,6 +355,60 @@ h1 {
   margin-top: 0;
 }
 
+/* Main footer */
+footer {
+  height: 250px;
+  justify-content: space-between;
+}
+ 
+/* Selector for footer logo */
+.footer-logo {
+  flex: 1;
+  justify-content: center;
+}
+ 
+/* Selector for all font awesome icons */
+.fab {
+  font-size: 24px;
+  color: #cc9543;
+}
+ 
+/* Hover effect for font awesome icons */
+.fab:hover {
+  color: black;
+}
+ 
+/* Selector for footer links */
+.footer-links {
+  list-style: none;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+ 
+/* Stylink text inside footer links */
+.footer-links div li a {
+  flex-basis: 30px;
+  color: rgba(74,74,74,0.7);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.8;
+}
+ 
+/* Hover effect fot social media links */
+.footer-links div li a:hover {
+  color: black;
+}
+ 
+/* Links inside left container */
+.left-cotainer-links {
+  margin-right: 80px;
+}
+
 /* TODO curriculum arrow down */
 
 /*==============================================================================
@@ -460,4 +514,10 @@ MEDIA QUERIES STARTING AT 1024PX
   .section-three-article-content-container {
     padding-left: 56px;
   }
+
+/* Selector for the container which contais social media link inside footer */
+.footer-social-media {
+  justify-content: space-around;
+  flex: 1;
+  } 
 }
