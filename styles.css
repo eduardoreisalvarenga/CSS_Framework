@@ -421,6 +421,11 @@ footer {
 }
 
 /* TODO curriculum arrow down */
+/* TODO fix footer logo */
+/* TODO HTML errors */
+/* TODO CSS errors */
+/* TODO add screenshots */
+/* TODO update README */
 
 /*==============================================================================
 MEDIA QUERIES FOR UP TO 499PX
@@ -556,5 +561,15 @@ MEDIA QUERIES STARTING AT 1024PX
   footer {
     height: 250px;
     justify-content: space-between;
+  }
+
+  /* Selector for the text in the main logo */
+  .logo-text {
+    font-size: 1.2em;
+  }
+
+  /* Selector for the anchor at the footer which contains the brnad logo */
+  .footer-logo-a {
+    width: 24px;
   }
 }
