@@ -420,6 +420,26 @@ footer {
   margin-right: auto;
 }
 
+/* Selector for the container of the floating element at the bottom right border of the page */
+.floating-container {
+  bottom: 20px;
+  z-index: 20;
+  right: 20px;
+  background: #6abfc3;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  cursor: pointer;
+}
+
+/* Selector to the floating element at the bottom right border of the page */
+.floating-element {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1;
+}
+
 /* TODO curriculum arrow down */
 /* TODO HTML errors */
 /* TODO CSS errors */
@@ -438,6 +458,11 @@ MEDIA QUERIES FOR UP TO 499PX
 
   /* Selector for footer links */
   .footer-links {
+    display: none;
+  }
+
+  /* Selector for the container of the floating element at the bottom right border of the page */
+  .floating-container {
     display: none;
   }
 }
