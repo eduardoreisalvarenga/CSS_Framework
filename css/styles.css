@@ -540,6 +540,17 @@ MEDIA QUERIES STARTING AT 1025PX
 
 /* These rules will aplly starting at 1025px */
 @media (min-width: 1025px) {
+  /* Selector for the navbar */
+  nav {
+    position: static;
+  }
+
+  /* Selector for the main content of the page */
+  main {
+    position: absolute;
+    top: 120px;
+  }
+
   /* Selector for the anchor which contains the menu icon */
   .main-logo-container {
     margin-left: auto;
@@ -578,6 +589,30 @@ MEDIA QUERIES STARTING AT 1025PX
   /* Container which contains all dives for programming information */
   .information-container {
     width: 870px;
+    margin: 0 auto;
+  }
+
+  /* Container for image and h4 header. Programming information */
+  .programming-container {
+    width: 258px;
+    height: 258px;
+  }
+
+  /* Default style for images showing programming languages */
+  .programing-languages {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  /* Selector for the h4 elements at the second section */
+  .programming-container h4 {
+    font-size: 1.125rem;
+  }
+
+  /* Selector for the third section wrapper */
+  .section-three-wrapper {
+    width: 80%;
     margin: 0 auto;
   }
 
