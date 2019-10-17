@@ -476,7 +476,7 @@ MEDIA QUERIES STARTING AT 720PX AND UNTIL 1024PX
 ============================================================================== */
 
 /* These rules will apply starting at 720px and up to 1024px */
-@media (min-width: 720px) and (max-width: 1024px){
+@media (min-width: 720px) and (max-width: 1024px) {
   /* Selector for the navbar */
   nav {
     position: static;
@@ -535,7 +535,7 @@ MEDIA QUERIES STARTING AT 720PX AND UNTIL 1024PX
 }
 
 /* ==============================================================================
-MEDIA QUERIES STARTING AT 1025PX 
+MEDIA QUERIES STARTING AT 1025PX
 ============================================================================== */
 
 /* These rules will aplly starting at 1025px */
