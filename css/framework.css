@@ -1,0 +1,500 @@
+/* This framework by default is mobile-first. It works by the basis of a twelve column grid */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Selector for the a elements */
+a {
+  text-decoration: none;
+}
+
+/* Selector for a default container */
+.container {
+  padding: 16px;
+}
+
+/* Selector used to create new rows */
+.row {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Selector used to create a column that takes a twelfth of the grid width */
+.col-1 {
+  flex-basis: calc(100% / 12);
+}
+
+/* Selector used to create a column that takes two twelfths of the grid width */
+.col-2 {
+  flex-basis: calc((100% / 12) * 2);
+}
+
+/* Selector used to create a column that takes three twelfths of the grid width */
+.col-3 {
+  flex-basis: calc((100% / 12) * 3);
+}
+
+/* Selector used to create a column that takes four twelfths of the grid width */
+.col-4 {
+  flex-basis: calc((100% / 12) * 4);
+}
+
+/* Selector used to create a column that takes five twelfths of the grid width */
+.col-5 {
+  flex-basis: calc((100% / 12) * 5);
+}
+
+/* Selector used to create a column that takes six twelfths of the grid width */
+.col-6 {
+  flex-basis: calc((100% / 12) * 6);
+}
+
+/* Selector used to create a column that takes seven twelfths of the grid width */
+.col-7 {
+  flex-basis: calc((100% / 12) * 7);
+}
+
+/* Selector used to create a column that takes eight twelfths of the grid width */
+.col-8 {
+  flex-basis: calc((100% / 12) * 8);
+}
+
+/* Selector used to create a column that takes nine twelfths of the grid width */
+.col-9 {
+  flex-basis: calc((100% / 12) * 9);
+}
+
+/* Selector used to create a column that takes ten twelfths of the grid width */
+.col-10 {
+  flex-basis: calc((100% / 12) * 10);
+}
+
+/* Selector used to create a column that takes eleven twelfths of the grid width */
+.col-11 {
+  flex-basis: calc((100% / 12) * 11);
+}
+
+/* Selector used to create a column that takes twelve twelfths of the grid width */
+.col-12 {
+  flex-basis: calc((100% / 12) * 12);
+}
+
+/* Selector for display none */
+.d-none {
+  display: none;
+}
+
+/* Selector for display flex */
+.d-flex {
+  display: flex;
+}
+
+/* Selector for display block */
+.d-block {
+  display: block;
+}
+
+/* Selector for display inline-block */
+.d-inline-block {
+  display: inline-block;
+}
+
+/* Selector for display inline */
+.d-inline {
+  display: inline;
+}
+
+/* Selector for adding a width of 100% */
+.w-100 {
+  width: 100%;
+}
+
+/* Selector for using position relative */
+.position-relative {
+  position: relative;
+}
+
+/* Selector for using position absolute */
+.position-absolute {
+  position: absolute;
+}
+
+/* Selector for using position fixed */
+.position-fixed {
+  position: fixed;
+}
+
+/* ==============================================================================
+MEDIA QUERIES FOR UP TO 499PX
+============================================================================== */
+
+/* These rules will apply for up to 500px */
+@media (max-width: 499px) {
+  /* Main footer */
+  footer {
+    height: 85px;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    display: none;
+  }
+
+  /* Selector for the container of the floating element at the bottom right border of the page */
+  .floating-container {
+    display: none;
+  }
+}
+
+/* ==============================================================================
+MEDIA QUERIES STARTING AT 720PX AND UP TO 1024PX
+============================================================================== */
+
+/* These rules will apply starting at 720px and up to 1024px */
+@media (min-width: 720px) and (max-width: 1024px) {
+  /* Selector used to create a column that takes a twelfth of the grid width */
+  .col-md-1 {
+    flex-basis: calc(100% / 12);
+  }
+
+  /* Selector used to create a column that takes two twelfths of the grid width */
+  .col-md-2 {
+    flex-basis: calc((100% / 12) * 2);
+  }
+
+  /* Selector used to create a column that takes three twelfths of the grid width */
+  .col-md-3 {
+    flex-basis: calc((100% / 12) * 3);
+  }
+
+  /* Selector used to create a column that takes four twelfths of the grid width */
+  .col-md-4 {
+    flex-basis: calc((100% / 12) * 4);
+  }
+
+  /* Selector used to create a column that takes five twelfths of the grid width */
+  .col-md-5 {
+    flex-basis: calc((100% / 12) * 5);
+  }
+
+  /* Selector used to create a column that takes six twelfths of the grid width */
+  .col-md-6 {
+    flex-basis: calc((100% / 12) * 6);
+  }
+
+  /* Selector used to create a column that takes seven twelfths of the grid width */
+  .col-md-7 {
+    flex-basis: calc((100% / 12) * 7);
+  }
+
+  /* Selector used to create a column that takes eight twelfths of the grid width */
+  .col-md-8 {
+    flex-basis: calc((100% / 12) * 8);
+  }
+
+  /* Selector used to create a column that takes nine twelfths of the grid width */
+  .col-md-9 {
+    flex-basis: calc((100% / 12) * 9);
+  }
+
+  /* Selector used to create a column that takes ten twelfths of the grid width */
+  .col-md-10 {
+    flex-basis: calc((100% / 12) * 10);
+  }
+
+  /* Selector used to create a column that takes eleven twelfths of the grid width */
+  .col-md-11 {
+    flex-basis: calc((100% / 12) * 11);
+  }
+
+  /* Selector used to create a column that takes twelve twelfths of the grid width */
+  .col-md-12 {
+    flex-basis: calc((100% / 12) * 12);
+  }
+
+  /* Selector for display none */
+  .d-md-none {
+    display: none;
+  }
+
+  /* Selector for display flex */
+  .d-md-flex {
+    display: flex;
+  }
+
+  /* Selector for display block */
+  .d-md-block {
+    display: block;
+  }
+
+  /* Selector for display inline-block */
+  .d-md-inline-block {
+    display: inline-block;
+  }
+
+  /* Selector for display inline */
+  .d-md-inline {
+    display: inline;
+  }
+
+  /* Selector for the navbar */
+  nav {
+    position: static;
+  }
+
+  /* Selector for the main content of the page */
+  main {
+    position: absolute;
+    top: 120px;
+  }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 80%;
+  }
+
+  /* Container which contains all dives | Programming information */
+  .information-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Container for image and h4 header. Programming information */
+  .programming-container {
+    width: 258px;
+    height: 258px;
+  }
+
+  /* Default style for images showing programming languages */
+  .programing-languages {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  /* Selector for the h4 elements at the second section */
+  .programming-container h4 {
+    font-size: 1.125rem;
+  }
+
+  /* Selector for the third section wrapper */
+  .section-three-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 0;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: space-around;
+  }
+}
+
+/* ==============================================================================
+MEDIA QUERIES STARTING AT 1025PX
+============================================================================== */
+
+/* These rules will apply starting at 1025px */
+@media (min-width: 1025px) {
+  /* Selector used to create a column that takes a twelfth of the grid width */
+  .col-lg-1 {
+    flex-basis: calc(100% / 12);
+  }
+
+  /* Selector used to create a column that takes two twelfths of the grid width */
+  .col-lg-2 {
+    flex-basis: calc((100% / 12) * 2);
+  }
+
+  /* Selector used to create a column that takes three twelfths of the grid width */
+  .col-lg-3 {
+    flex-basis: calc((100% / 12) * 3);
+  }
+
+  /* Selector used to create a column that takes four twelfths of the grid width */
+  .col-lg-4 {
+    flex-basis: calc((100% / 12) * 4);
+  }
+
+  /* Selector used to create a column that takes five twelfths of the grid width */
+  .col-lg-5 {
+    flex-basis: calc((100% / 12) * 5);
+  }
+
+  /* Selector used to create a column that takes six twelfths of the grid width */
+  .col-lg-6 {
+    flex-basis: calc((100% / 12) * 6);
+  }
+
+  /* Selector used to create a column that takes seven twelfths of the grid width */
+  .col-lg-7 {
+    flex-basis: calc((100% / 12) * 7);
+  }
+
+  /* Selector used to create a column that takes eight twelfths of the grid width */
+  .col-lg-8 {
+    flex-basis: calc((100% / 12) * 8);
+  }
+
+  /* Selector used to create a column that takes nine twelfths of the grid width */
+  .col-lg-9 {
+    flex-basis: calc((100% / 12) * 9);
+  }
+
+  /* Selector used to create a column that takes ten twelfths of the grid width */
+  .col-lg-10 {
+    flex-basis: calc((100% / 12) * 10);
+  }
+
+  /* Selector used to create a column that takes eleven twelfths of the grid width */
+  .col-lg-11 {
+    flex-basis: calc((100% / 12) * 11);
+  }
+
+  /* Selector used to create a column that takes twelve twelfths of the grid width */
+  .col-lg-12 {
+    flex-basis: calc((100% / 12) * 12);
+  }
+
+  /* Selector for display none */
+  .d-lg-none {
+    display: none;
+  }
+
+  /* Selector for display flex */
+  .d-lg-flex {
+    display: flex;
+  }
+
+  /* Selector for display block */
+  .d-lg-block {
+    display: block;
+  }
+
+  /* Selector for display inline-block */
+  .d-lg-inline-block {
+    display: inline-block;
+  }
+
+  /* Selector for display inline */
+  .d-lg-inline {
+    display: inline;
+  }
+
+  /* Selector for the navbar */
+  nav {
+    position: static;
+  }
+
+  /* Selector for the main content of the page */
+  main {
+    position: absolute;
+    top: 120px;
+  }
+
+  /* Selector for the anchor which contains the menu icon */
+  .main-logo-container {
+    margin-left: auto;
+  }
+
+  /* Selector for all the links in main navbar */
+  .navbar-links-container {
+    margin: 12px auto 0 0;
+  }
+
+  /* Selector for the logo img at the navbar */
+  .logo {
+    height: 70px;
+  }
+
+  /* Selector for section one articles */
+  .section-one-article-one {
+    margin-top: 0;
+  }
+
+  /* Selector for the row at section one */
+  .section-one-row {
+    margin-top: 120px;
+  }
+
+  /* Selector for images at section one */
+  .section-one-img {
+    height: 165px;
+  }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 1024px;
+  }
+
+  /* Container which contains all dives for programming information */
+  .information-container {
+    width: 870px;
+    margin: 0 auto;
+  }
+
+  /* Container for image and h4 header. Programming information */
+  .programming-container {
+    width: 258px;
+    height: 258px;
+  }
+
+  /* Default style for images showing programming languages */
+  .programing-languages {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  /* Selector for the h4 elements at the second section */
+  .programming-container h4 {
+    font-size: 1.125rem;
+  }
+
+  /* Selector for the third section wrapper */
+  .section-three-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Selector for the container of the content at articles at section three */
+  .section-three-article-content-container {
+    padding-left: 56px;
+  }
+
+  /* Main footer */
+  footer {
+    height: 250px;
+    justify-content: space-between;
+  }
+
+  /* Selector for the text in the main logo */
+  .logo-text {
+    font-size: 1.2em;
+  }
+
+  /* Selector for the anchor at the footer which contains the brnad logo */
+  .footer-logo-a {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: center;
+  }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 80px;
+  }
+}

@@ -1,0 +1,450 @@
+/* Embed font required for the brand at the navbar */
+@font-face {
+  font-family: "Norsebold";
+  src: url('../norse/Norsebold.otf');
+}
+
+/* Selector for the body of the page */
+body {
+  background-color: #f5f5f5;
+}
+
+/* Selector for the navbar */
+nav {
+  background-color: #f5f5f5;
+  position: fixed;
+  z-index: 10;
+}
+
+/* Selector for the main content of the page */
+main {
+  position: absolute;
+  top: 64px;
+}
+
+/* Selector for main logo anchor */
+.main-logo-container {
+  align-items: center;
+  margin: 8px 0 0 20px;
+}
+
+/* Selector for the logo img at the navbar */
+.logo {
+  height: 60px;
+}
+
+/* Selector for the anchor which contains the menu icon */
+.menu-icon-container {
+  margin: 22px 24px 0 auto;
+}
+
+/* Selector for the menu icon at the navbar */
+.menu-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Selector for the text in the main logo */
+.logo-text {
+  color: #cc9543;
+  text-transform: uppercase;
+  font-family: "Norsebold", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  padding-left: 0.5em;
+}
+
+/* Selector for all the links in main navbar */
+.navbar-links-container {
+  margin: 12px 12px 0 0;
+  align-items: center;
+  width: 69%;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+/* Selector for the li elements at the navbar */
+.navbar-links-container li {
+  margin-left: 16px;
+}
+
+/* Selector for the anchors inside the ul at the navbar */
+.navbar-links-container li a {
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+}
+
+/* Stylink text inside footer links */
+.footer-links ul li a {
+  flex-basis: 30px;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.8;
+}
+
+/* Selector for the anchors inside the ul at the navbar when hovering */
+.navbar-links-container li a:hover {
+  color: black;
+}
+
+/* Style for the arrow pointing down beside community anchor at the navbar */
+.dropdown-arrow::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+/* Style for the arrow pointing down beside community anchor at the navbar when hovering */
+.dropdown-arrow:hover::after {
+  color: black;
+}
+
+/* Selector for the pipe at the navbar */
+.pipe {
+  line-height: 78px;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+/* Selector for the main header */
+header {
+  text-align: center;
+}
+
+/* Selector for all the h1. We have only one h1 */
+h1 {
+  color: #ce973e;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+/* Selector for the paragraph below h1 */
+.header-paragraph {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: 400;
+  line-height: 1.88;
+  text-align: center;
+}
+
+/* Custom class for the View curriculum button */
+.header-button {
+  background-color: #6abfc3;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1.1rem 2.9rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 48px;
+}
+
+/* Custom class to give opacity when hovering over view curriculum button */
+.header-button:hover {
+  opacity: 0.8;
+}
+
+/* Selector for the container which contains the odin factory image */
+.image-container {
+  margin: 46px 0 40px 0;
+}
+
+/* Selector for the section one container */
+.section-one-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Selector for the titles of the sections */
+.section-title {
+  margin: 0 0 40px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Selector for section one articles */
+.section-one-article-one {
+  margin-top: 48px;
+}
+
+/* Selector for images at section one */
+.section-one-img {
+  height: 120px;
+  margin: 0 auto;
+}
+
+/* Selector for h2 elements at section one articles */
+.section-one-article h2 {
+  margin: 50px 0 20px 0;
+  font-weight: bold;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Container which contains all dives | Programming information */
+.information-container {
+  position: relative;
+  top: -16px;
+}
+
+/* Main container for TI category */
+.programming-languages-main-container {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #eee;
+}
+
+/* Selector for the main header inside programming category  */
+.programming-languages-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  line-height: 1.2;
+  margin: 0 0 58px 0;
+}
+
+/* Container for image and h4 header. Programming information */
+.programming-container {
+  padding-top: 25px;
+  background-color: white;
+  margin: 10px auto;
+  width: 270px;
+  height: 150px;
+  text-align: center;
+  flex-basis: auto;
+}
+
+/* Default style for images showing programming languages */
+.programing-languages {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* Style for get started button  */
+.programming-languages-button {
+  margin-top: 40px;
+  background-color: #cc9543;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+/* Style for get started button when hovering */
+.programming-languages-button:hover {
+  opacity: 0.8;
+}
+
+/* Selector for the third section container */
+.section-three-container {
+  width: 100%;
+  background-image: linear-gradient(#fff, #eee);
+}
+
+/* Selector for the title at the third section */
+.third-section-title {
+  padding: 56px 0 56px 0;
+}
+
+/* Selector for section three's articles */
+.section-three-article {
+  margin-top: 16px;
+}
+
+/* Selector for images at section three's articles */
+.section-three-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 16px;
+}
+
+/* Selector for the container of the content at articles at section three */
+.section-three-article-content-container {
+  padding-left: 40px;
+}
+
+/* Selector for the a element inside the h2 element at section three's articles */
+.section-three-article-header {
+  color: #ce973e;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.88;
+  font-weight: 400;
+}
+
+/* Selector for the a element inside the h2 element at section three's articles when hovering */
+.section-three-article-header:hover {
+  color: black;
+}
+
+/* Selector for section three paragraphs */
+.section-three-p {
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Selector for the first a element at the third section */
+.section-three-first-anchor {
+  text-decoration: underline;
+  color: rgba(74, 74, 74, 0.7);
+  display: block;
+  text-align: center;
+  margin: 56px 0 80px 0;
+  font-weight: 400;
+}
+
+/* Selector for the first a element at the third section when hovering */
+.section-three-first-anchor:hover {
+  color: black;
+}
+
+/* Selector for the span at the third section */
+.section-three-span {
+  display: block;
+  text-align: center;
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 2.2em;
+  line-height: 1.5;
+  margin: 0 auto 48px auto;
+  max-width: 25em;
+  letter-spacing: 0.2px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+/* Selector for the container of the button at the third section */
+.third-section-button-container {
+  justify-content: center;
+  padding-bottom: 64px;
+}
+
+/* Selector for the button ath the third section */
+.third-section-button {
+  margin-top: 0;
+}
+
+/* Main footer */
+footer {
+  height: 140px;
+}
+
+/* Selector for footer logo */
+.footer-logo {
+  flex: 1;
+  justify-content: center;
+}
+
+/* Selector for the container which contais social media link inside footer */
+.footer-social-media {
+  justify-content: space-around;
+  flex: 1;
+}
+
+/* Selector for all font awesome icons */
+.fab {
+  font-size: 24px;
+  color: #cc9543;
+}
+
+/* Hover effect for font awesome icons */
+.fab:hover {
+  color: black;
+}
+
+/* Selector fot the ul elements at the footer */
+.footer-list {
+  list-style: none;
+}
+
+/* Selector for footer links */
+.footer-links {
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+/* Hover effect fot social media links */
+.footer-links ul li a:hover {
+  color: black;
+}
+
+/* Links inside left container */
+.left-cotainer-links {
+  margin-right: auto;
+}
+
+/* Selector for the container of the floating element at the bottom right border of the page */
+.floating-container {
+  bottom: 20px;
+  z-index: 20;
+  right: 20px;
+  background: #6abfc3;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  cursor: pointer;
+}
+
+/* Selector to the floating element at the bottom right border of the page */
+.floating-element {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1;
+}
