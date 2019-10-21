@@ -597,7 +597,7 @@ MEDIA QUERIES STARTING AT 1024PX
     font-size: 1.2em;
   }
 
-  /* Selector for the anchor at the footer which contains the brnad logo */
+  /* Selector for the anchor at the footer which contains the brand logo */
   .footer-logo-a {
     display: flex;
     align-items: center;
