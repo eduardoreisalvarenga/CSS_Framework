@@ -448,3 +448,168 @@ footer {
   font-weight: 900;
   line-height: 1;
 }
+
+/* ==============================================================================
+MEDIA QUERIES FOR UP TO 499PX
+============================================================================== */
+
+/* These rules will apply for up to 500px */
+@media (max-width: 499px) {
+  /* Main footer */
+  footer {
+    height: 85px;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    display: none;
+  }
+
+  /* Selector for the container of the floating element at the bottom right border of the page */
+  .floating-container {
+    display: none;
+  }
+}
+
+/* ==============================================================================
+MEDIA QUERIES STARTING AT 720PX
+============================================================================== */
+
+/* These rules will apply starting at 720px */
+@media (min-width: 720px) {
+  /* Selector for the navbar */
+  nav {
+    position: static;
+  }
+
+  /* Selector for the main content of the page */
+  main {
+    position: absolute;
+    top: 120px;
+  }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 80%;
+  }
+
+  /* Container which contains all dives | Programming information */
+  .information-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Container for image and h4 header. Programming information */
+  .programming-container {
+    width: 258px;
+    height: 258px;
+  }
+
+  /* Default style for images showing programming languages */
+  .programing-languages {
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+  }
+
+  /* Selector for the h4 elements at the second section */
+  .programming-container h4 {
+    font-size: 1.125rem;
+  }
+
+  /* Selector for the third section wrapper */
+  .section-three-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 0;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: space-around;
+  }
+}
+
+/* ==============================================================================
+MEDIA QUERIES STARTING AT 1024PX
+============================================================================== */
+
+/* These rules will aplly starting at 1024px */
+@media (min-width: 1024px) {
+  /* Selector for the anchor which contains the menu icon */
+  .main-logo-container {
+    margin-left: auto;
+  }
+
+  /* Selector for all the links in main navbar */
+  .navbar-links-container {
+    margin: 12px auto 0 0;
+  }
+
+  /* Selector for the logo img at the navbar */
+  .logo {
+    height: 70px;
+  }
+
+  /* Selector for section one articles */
+  .section-one-article-one {
+    margin-top: 0;
+  }
+
+  /* Selector for the row at section one */
+  .section-one-row {
+    margin-top: 120px;
+  }
+
+  /* Selector for images at section one */
+  .section-one-img {
+    height: 165px;
+  }
+
+  /* Selector for the section one container */
+  .section-one-container {
+    max-width: 1024px;
+  }
+
+  /* Container which contains all dives for programming information */
+  .information-container {
+    width: 870px;
+    margin: 0 auto;
+  }
+
+  /* Selector for the container of the content at articles at section three */
+  .section-three-article-content-container {
+    padding-left: 56px;
+  }
+
+  /* Main footer */
+  footer {
+    height: 250px;
+    justify-content: space-between;
+  }
+
+  /* Selector for the text in the main logo */
+  .logo-text {
+    font-size: 1.2em;
+  }
+
+  /* Selector for the anchor at the footer which contains the brnad logo */
+  .footer-logo-a {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Selector for footer links */
+  .footer-links {
+    justify-content: center;
+  }
+
+  /* Links inside left container */
+  .left-cotainer-links {
+    margin-right: 80px;
+  }
+}
