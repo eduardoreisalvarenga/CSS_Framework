@@ -2,7 +2,7 @@
 
 This is our solution to Microverse's eighth project. It is a Grid-based CSS Framework which can be found as 'framework.css' inside the css directory. To apply it, we cloned The Odin Project home page which can be found [here](https://www.theodinproject.com/). The clone was created using HTML5 and CSS3, while the framework was built using CSS3.
 
-A live version can be found [here](https://raw.githack.com/eduardoreisalvarenga/CSS_Framework/home_page/index.html).
+A live version can be found [here](https://rawcdn.githack.com/eduardoreisalvarenga/CSS_Framework/5aa808211fb83ef5e0715770a5820bf9cfa1ff48/index.html).
 
 ## Project contributors:
 
